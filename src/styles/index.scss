@@ -1,0 +1,12 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    padding-top: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
