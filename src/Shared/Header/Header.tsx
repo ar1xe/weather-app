@@ -5,9 +5,9 @@ import Select from "react-select";
 
 const Header = () => {
   const options = [
-    { value: "city-1", label: "NNovgorod" },
-    { value: "city-2", label: "Rostov" },
-    { value: "city-3", label: "Moscow" },
+    { value: "city-1", label: "Н.Новгород" },
+    { value: "city-2", label: "Ростов на Дону" },
+    { value: "city-3", label: "Москва" },
   ];
 
   const colorStyles = {

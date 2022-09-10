@@ -1,0 +1,47 @@
+@import "../../styles/variables.scss";
+
+.popup {
+  position: absolute;
+  top: 30%;
+  left: calc(50% - 325px);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 40px;
+  max-width: 750px;
+  width: 100%;
+  background: $lite-backgroud;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  transition: $transition-hover;
+
+  &:hover {
+    box-shadow: $box-shadow-hover;
+  }
+}
+
+.blur {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 25px; 
+  cursor: pointer;
+  svg {
+    transition: $transition-hover;
+  }
+  
+  &:hover {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+}

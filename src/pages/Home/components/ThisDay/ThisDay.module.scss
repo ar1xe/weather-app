@@ -7,6 +7,10 @@
     background: $lite-backgroud;
     box-shadow: $box-shadow;
     border-radius: $border-radius;
+    transition: $transition-hover;
+    &:hover {
+        box-shadow: $box-shadow-hover;
+    }
 }
 
 .top__block {
